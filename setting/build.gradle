@@ -6,7 +6,7 @@ dependencies {
     implementation project(':common')
     implementation project(':flux')
     implementation project(':repository')
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     // Jetpack Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.nav_version"
