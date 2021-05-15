@@ -56,7 +56,7 @@ dependencies {
     // Debugビルドでは実行できないためReleaseビルドでしか使わない。
     // google-services.jsonがソースコード公開のためにモックになっているため。
     releaseImplementation "com.google.firebase:firebase-core:$firebase_core_version"
-    releaseImplementation 'com.google.firebase:firebase-messaging:20.1.5'
+    releaseImplementation 'com.google.firebase:firebase-messaging:22.0.0'
     releaseImplementation 'com.google.firebase:firebase-dynamic-links:19.1.0'
 
     debugImplementation 'com.facebook.flipper:flipper:0.37.0'
