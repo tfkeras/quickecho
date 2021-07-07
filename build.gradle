@@ -38,7 +38,7 @@ buildscript {
         // https://mvnrepository.com/artifact/com.google.android.gms/oss-licenses-plugin
         classpath 'com.google.android.gms:oss-licenses-plugin:0.10.2'
         classpath 'com.google.dagger:hilt-android-gradle-plugin:2.28-alpha'
-        classpath "com.diffplug.spotless:spotless-plugin-gradle:5.11.0"
+        classpath "com.diffplug.spotless:spotless-plugin-gradle:5.14.1"
         classpath 'com.deploygate:gradle:2.3.0'
     }
 }
